@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/Layout";
+import Seo from "../components/seo";
 
 
 const About = () => {
@@ -13,4 +14,4 @@ const About = () => {
 
 export default About
 
-export const Head = () => <title>About me</title>
+export const Head = () => <Seo title="About Me"/>
